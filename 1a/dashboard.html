@@ -1,0 +1,123 @@
+<html>
+<head>
+    <title>Document</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <style>
+        *{
+            margin: 0;
+        }
+        .heading{
+            color: aliceblue;
+            padding: 20px;
+        }
+        .sidebar {
+            width: 200px;
+            height: 700px;
+            float: left; 
+            background-color:rgb(231, 150, 150);
+            padding: 10px;
+          }
+          
+          .sidebar h2 {
+            text-align: center;
+          }
+          
+          .sidebar ul {
+            list-style-type: none;
+            margin: 0; 
+            padding: 0;
+          }
+          
+          .sidebar li {
+            margin: 0 10px;
+            padding: 10px;
+          }
+          
+          .sidebar a {
+            text-decoration: none;
+            color: whitesmoke;
+            cursor: pointer;
+            padding: 5px;
+          }
+          .main h1{
+            text-align: center;
+            padding: 20px;
+            background-color:rgb(140, 134, 134);
+            color: azure;
+          }
+          form{
+            padding: 100px;
+            text-align: center;
+          }
+
+          #username {
+            font-size: 24px;
+            font-weight: 900;
+          }
+
+          #password {
+            font-size: 24px;
+            font-weight: 900;
+          }
+          #button {
+            font-size: 20px;
+            color: white;
+            background-color: black;
+            border-radius: 6px;}
+          
+        footer{
+
+            background-color: rgb(140, 134, 134);
+            text-align: center;
+            padding: 15px;
+            margin-top: 10px;
+            color: aliceblue;
+            bottom: 0;
+            left: 0;
+            position: fixed;
+            width: 100%;
+        }
+        footer a {
+            text-decoration: none;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+    <div class="sidebar">
+        <a class="heading" href="/dashboard.html"> Dashboard </a>
+        <ul>
+          <li><a href="/order.html">Orders</a></li>
+          <li><a href="#2">Customers</a></li>
+          <li><a href="#3">Contact Us</a></li>
+        </ul>
+    </div>
+      
+    <div class="main">
+        <h1>Ecommerce Admin Dashboard</h1>
+        <form action="">
+            <p>Username : 
+              <input type="text" name="username" id="username">
+            </p>
+            <br>
+            <p>password :
+                <input type="password" name="password" id="password">
+            </p>
+            <br>
+            <button id="button">Login</button>
+        </form>
+    </div>
+</div>
+      <footer>
+        <b>83265763</b>&nbsp;&nbsp;
+        <b>example@gmail.com</b>
+        &nbsp;&nbsp;
+        <b><a href="#">Linkdin</a></b>
+        &nbsp;&nbsp;
+        <b><a href="#">GitHub</a></b>
+        &nbsp;&nbsp;
+        &copy;Ritesh 2023
+    </footer>
+</body>
+</html>
