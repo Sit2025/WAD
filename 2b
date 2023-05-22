@@ -1,0 +1,8 @@
+open folder in command palet
+1) git init
+2)git status -->show commited or not commited files
+3)git add (filename)
+4)git commit -m "any name"
+5)git remote -v  -->fetch push
+6)git remote add origin (the path of repositary)
+7)git push origin master
